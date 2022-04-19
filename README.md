@@ -35,9 +35,9 @@ Kotlin APIs.
 
 ## Please Share & Star the repository to keep me motivated.
 
-  <a href = "https://github.com/Gurupreet/ComposeSpotifyDesktop/stargazers">
+  <a href = "https://github.com/HaneetGH/ComposeSpotifyD">
      <img src = "https://img.shields.io/github/stars/Gurupreet/ComposeSpotifyDesktop" />
   </a>
-  <a href = "https://twitter.com/_gurupreet">
-     <img src = "https://img.shields.io/twitter/url?label=follow&style=social&url=https%3A%2F%2Ftwitter.com%2F_gurupreet" />
+  <a href = "https://twitter.com/HaneetChhabra">
+     <img src = "https://img.shields.io/twitter/url?label=follow&style=social&url=https%3A%2F%2Ftwitter.com%2HaneetChhabra" />
   </a>
