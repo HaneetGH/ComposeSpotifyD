@@ -6,7 +6,6 @@ plugins {
     kotlin("jvm") version "1.4.20"
     id("org.jetbrains.compose") version "0.2.0-build132"
 }
-
 group = "me.guru"
 version = "1.0"
 
@@ -18,6 +17,7 @@ repositories {
 
 dependencies {
     implementation(compose.desktop.currentOs)
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 tasks.withType<KotlinCompile>() {
@@ -32,4 +32,12 @@ compose.desktop {
             packageName = "ComposeSpotifyDesktop"
         }
     }
+}
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "1.8"
 }
