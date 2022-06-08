@@ -14,7 +14,6 @@ repositories {
     mavenCentral()
     maven { url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
 }
-
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation(kotlin("stdlib-jdk8"))
